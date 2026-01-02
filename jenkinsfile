@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    VERSEL_TOKEN = credentials('versel-token')
+    VERSEL_TOKEN = credentials('versel_token')
   }
 
   stages {
